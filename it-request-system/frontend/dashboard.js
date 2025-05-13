@@ -1,5 +1,5 @@
-// const BASE_URL = "https://jindal-power.onrender.com";
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://jpl-form.onrender.com";
+// const BASE_URL = "http://localhost:5000";
 
 // Cache for modal instance
 let commentModalInstance = null;
