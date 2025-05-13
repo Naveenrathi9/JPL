@@ -365,8 +365,8 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Submitting form data:', formData);
 
     try {
-      // const BASE_URL = "https://jindal-power.onrender.com";
-      const BASE_URL = "http://localhost:5000";
+      const BASE_URL = "https://jpl-form.onrender.com";
+      // const BASE_URL = "http://localhost:5000";
       const response = await fetch(`${BASE_URL}/api/submit`, {
         method: 'POST',
         headers: { 
