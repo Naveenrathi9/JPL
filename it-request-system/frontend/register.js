@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     registerButton.textContent = 'Registering...';
 
     try {
-      const response = await fetch('http://localhost:5000/api/register', {
+      const response = await fetch('https://jpl-form.onrender.com/api/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, name, email, password, department, employeeCode, designation, contactNumber }),
